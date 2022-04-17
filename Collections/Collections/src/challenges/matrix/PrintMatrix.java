@@ -1,4 +1,4 @@
-package test.challenges.matrix;
+package challenges.matrix;
 
 import java.util.Arrays;
 

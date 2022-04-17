@@ -1,4 +1,4 @@
-package test.challenges.sortarrays;
+package challenges.sortarrays;
 
 import java.util.Arrays;
 
@@ -11,6 +11,13 @@ public class SortMyArrays {
 
         sortArray(numbers);
         printArray(numbers);
+
+        /*
+        OUTPUT 
+        
+        123456789
+
+        */
         
     }
 

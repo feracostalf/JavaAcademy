@@ -1,4 +1,4 @@
-package test.challenges.sortarrays;
+package challenges.sortarrays;
 
 import java.util.Arrays;
 import java.util.Comparator;
@@ -16,6 +16,15 @@ public class SortMyObjects {
     sortObjects(items);
     System.out.println(Arrays.toString(items));
         
+/*
+
+OUTPUT
+
+[Item [id=7, name=iPhone, price=38], Item [id=3, name=Xiaomi, price=15], Item [id=9, name=Samsung, price=45]]
+[Item [id=3, name=Xiaomi, price=15], Item [id=7, name=iPhone, price=38], Item [id=9, name=Samsung, price=45]] 
+
+*/
+
     }
 
     public static void sortObjects(Item[] items){
