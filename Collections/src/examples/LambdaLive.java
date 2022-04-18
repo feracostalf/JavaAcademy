@@ -54,7 +54,6 @@ class PrintHello implements Runnable{
 
 }
 
-@FunctionalInterface
 interface UpConcat{
 
     String upAndConcat(String s1,String s2);
